@@ -50,6 +50,8 @@ async function pausefun(turn){
         return 
     }
 }
+const bgMusic = document.getElementById("backgroundsound");
+bgMusic.muted = false;
 let tapsound = document.getElementById("tapsound");
 let input = document.getElementById("input");
 let startbtn = document.getElementById("start");
